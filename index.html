@@ -1,29 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Student Apps</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student App Hub</title>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      background: #f5f6f8;
+      color: #111;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    header p {
+      margin-top: 8px;
+      color: #666;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    }
+
+    .app-title {
+      font-size: 18px;
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .buttons a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      padding: 12px;
+      margin: 8px 0;
+      border-radius: 10px;
+      font-weight: 600;
+    }
+
+    .ios {
+      background: #000;
+      color: white;
+    }
+
+    .android {
+      background: #3DDC84;
+      color: #000;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 20px 0 10px;
+      font-size: 14px;
+      color: #777;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; padding:20px;">
 
-  <h2>Download Your Apps</h2>
+<body>
 
-  <h3>what3words</h3>
-  <a href="https://apps.apple.com/app/id657878530">🍎 Download on iPhone</a><br>
-  <a href="https://play.google.com/store/apps/details?id=com.what3words.android">🤖 Download on Android</a>
+  <header>
+    <h1>📱 Student App Hub</h1>
+    <p>Download apps and join your group chat</p>
+  </header>
 
-  <hr>
+  <div class="container">
 
-  <h3>Viber</h3>
-  <a href="https://apps.apple.com/app/id382617920">🍎 Download on iPhone</a><br>
-  <a href="https://play.google.com/store/apps/details?id=com.viber.voip">🤖 Download on Android</a>
+    <div class="section-title">Apps</div>
 
-  <hr>
+    <!-- what3words -->
+    <div class="card">
+      <div class="app-title">what3words</div>
+      <div class="buttons">
+        <a class="ios" href="https://apps.apple.com/gb/app/what3words/id657878530">🍎 Download for iPhone</a>
+        <a class="android" href="https://play.google.com/store/apps/details?id=com.what3words.android">🤖 Download for Android</a>
+      </div>
+    </div>
 
-  <h3>Join Group Chat</h3>
-  <a href="https://invite.viber.com/?g2=YOUR_INVITE_CODE">
-    💬 Join Viber Group
-  </a>
+    <!-- Viber -->
+    <div class="card">
+      <div class="app-title">Viber</div>
+      <div class="buttons">
+        <a class="ios" href="https://apps.apple.com/app/id382617920">🍎 Download for iPhone</a>
+        <a class="android" href="https://play.google.com/store/apps/details?id=com.viber.voip">🤖 Download for Android</a>
+      </div>
+    </div>
+
+    <div class="section-title">Group Chat</div>
+
+    <!-- Viber Group -->
+    <div class="card">
+      <div class="app-title">Join Your Class Group</div>
+      <div class="buttons">
+        <a class="android" href="https://invite.viber.com/?g2=YOUR_INVITE_CODE">
+          💬 Join Viber Group
+        </a>
+      </div>
+    </div>
+
+  </div>
 
 </body>
 </html>
