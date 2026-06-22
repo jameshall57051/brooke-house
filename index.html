@@ -1,140 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Student App Hub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      margin: 0;
-      background: #f5f6f8;
-      color: #111;
-    }
+<title>Brooke House Summer School</title>
 
-    header {
-      text-align: center;
-      padding: 40px 20px 20px;
-    }
+<style>
 
-    header h1 {
-      margin: 0;
-      font-size: 26px;
-    }
+*{
+    box-sizing:border-box;
+}
 
-    header p {
-      margin-top: 8px;
-      color: #666;
-    }
+body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    background:#f4f6f9;
+    color:#222;
+}
 
-    .container {
-      max-width: 500px;
-      margin: auto;
-      padding: 20px;
-    }
+header{
+    background:#003B71;
+    color:white;
+    text-align:center;
+    padding:45px 20px;
+}
 
-    .card {
-      background: white;
-      border-radius: 16px;
-      padding: 20px;
-      margin-bottom: 16px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-    }
+header h1{
+    margin:0;
+    font-size:32px;
+}
 
-    .app-title {
-      font-size: 18px;
-      margin-bottom: 12px;
-      font-weight: 600;
-    }
+header p{
+    margin-top:10px;
+    opacity:0.9;
+    font-size:18px;
+}
 
-    .buttons a {
-      display: block;
-      text-align: center;
-      text-decoration: none;
-      padding: 12px;
-      margin: 8px 0;
-      border-radius: 10px;
-      font-weight: 600;
-    }
+.container{
+    max-width:550px;
+    margin:auto;
+    padding:20px;
+}
 
-    .ios {
-      background: #000;
-      color: white;
-    }
+.card{
+    background:white;
+    border-radius:18px;
+    padding:24px;
+    margin-bottom:22px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+}
 
-    .android {
-      background: #3DDC84;
-      color: #000;
-    }
+.section-title{
+    color:#666;
+    text-transform:uppercase;
+    font-size:13px;
+    letter-spacing:1px;
+    margin:30px 0 12px;
+    text-align:center;
+}
 
-    .section-title {
-      text-align: center;
-      margin: 20px 0 10px;
-      font-size: 14px;
-      color: #777;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-    }
-  </style>
+.app-title{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:12px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.5;
+}
+
+.buttons a{
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    padding:14px;
+    border-radius:12px;
+    margin-top:10px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.buttons a:hover{
+    transform:translateY(-2px);
+}
+
+.portal{
+    background:#003B71;
+    color:white;
+}
+
+.ios{
+    background:#000;
+    color:white;
+}
+
+.android{
+    background:#3DDC84;
+    color:#000;
+}
+
+.viber{
+    background:#7360F2;
+    color:white;
+}
+
+footer{
+    text-align:center;
+    color:#888;
+    font-size:13px;
+    padding:25px;
+}
+
+</style>
+
 </head>
 
 <body>
-<div class="section-title">Student Resources</div>
+
+<header>
+
+<h1>📱 Brooke House Summer School</h1>
+
+<p>Everything you need in one place</p>
+
+</header>
+
+<div class="container">
+
+<div class="section-title">
+Student Resources
+</div>
 
 <div class="card">
-  <div class="app-title">📚 Student Portal & Handbook</div>
-  <p style="color:#666; margin-top:0;">
-    Access your handbook, timetable, notices and other important information.
-  </p>
 
-  <div class="buttons">
-    <a class="ios" href="https://www.brookehousecollege.co.uk/summer-school/student-portal-student-handbook">
-      🌐 Open Student Portal
-    </a>
-  </div>
+<div class="app-title">
+📚 Student Portal & Handbook
 </div>
-  
-  <header>
-    <h1>📱 Student App Hub</h1>
-    <p>Download apps and join your group chat</p>
-  </header>
 
-  <div class="container">
+<p>
+Access your handbook, timetable, important announcements and everything you'll need throughout Summer School.
+</p>
 
-    <div class="section-title">Apps</div>
+<div class="buttons">
 
-    <!-- what3words -->
-    <div class="card">
-      <div class="app-title">what3words</div>
-      <div class="buttons">
-        <a class="ios" href="https://apps.apple.com/gb/app/what3words/id657878530">🍎 Download for iPhone</a>
-        <a class="android" href="https://play.google.com/store/apps/details?id=com.what3words.android">🤖 Download for Android</a>
-      </div>
-    </div>
+<a class="portal"
+href="https://www.brookehousecollege.co.uk/summer-school/student-portal-student-handbook">
 
-    <!-- Viber -->
-    <div class="card">
-      <div class="app-title">Viber</div>
-      <div class="buttons">
-        <a class="ios" href="https://apps.apple.com/app/id382617920">🍎 Download for iPhone</a>
-        <a class="android" href="https://play.google.com/store/apps/details?id=com.viber.voip">🤖 Download for Android</a>
-      </div>
-    </div>
+🌐 Open Student Portal
 
-    <div class="section-title">Group Chat</div>
+</a>
 
-    <!-- Viber Group -->
-    <div class="card">
-      <div class="app-title">Join Your Class Group</div>
-      <div class="buttons">
-        <a class="android" href="https://invite.viber.com/?g2=YOUR_INVITE_CODE">
-          💬 Join Viber Group
-        </a>
-      </div>
-    </div>
+</div>
 
-  </div>
+</div>
+
+<div class="section-title">
+Essential Apps
+</div>
+
+<div class="card">
+
+<div class="app-title">
+📍 what3words
+</div>
+
+<p>
+Please install what3words before arrival. Staff use it to help identify precise locations when needed.
+</p>
+
+<div class="buttons">
+
+<a class="ios"
+href="https://apps.apple.com/gb/app/what3words/id657878530">
+
+🍎 Download for iPhone
+
+</a>
+
+<a class="android"
+href="https://play.google.com/store/apps/details?id=com.what3words.android">
+
+🤖 Download for Android
+
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="app-title">
+💬 Viber
+</div>
+
+<p>
+Install Viber to receive announcements and stay connected with your Summer School group.
+</p>
+
+<div class="buttons">
+
+<a class="ios"
+href="https://apps.apple.com/app/id382617920">
+
+🍎 Download for iPhone
+
+</a>
+
+<a class="android"
+href="https://play.google.com/store/apps/details?id=com.viber.voip">
+
+🤖 Download for Android
+
+</a>
+
+</div>
+
+</div>
+
+<div class="section-title">
+Stay Connected
+</div>
+
+<div class="card">
+
+<div class="app-title">
+👥 Join Your Viber Group
+</div>
+
+<p>
+Once you've installed Viber, tap the button below to join your Summer School group chat.
+</p>
+
+<div class="buttons">
+
+<a class="viber"
+href="YOUR_VIBER_INVITE_LINK">
+
+💬 Join Viber Group
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+Brooke House College Summer School
+
+</footer>
 
 </body>
 </html>
